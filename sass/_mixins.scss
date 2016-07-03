@@ -1,0 +1,14 @@
+@mixin scale($scale){
+	-moz-transform: scaleX($scale);
+	-o-transform: scaleX($scale);
+	-webkit-transform: scaleX($scale);
+	transform: scaleX("$scale");
+	}
+
+@mixin flip($flip){
+	-moz-filter: "$flip";
+	-o-filter: "$flip";
+	-webkit-filter: "$flip";
+	-ms-filter: "$flip";
+	filter: $flip;
+	}
